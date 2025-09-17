@@ -23,7 +23,7 @@ In this exercise we will focus on `JavaScript Design Patterns` and `Asynchronous
 
 ---
 
-### 📋 Progress Sheet 
+### 📋 Progress Sheet
 
 Legend:
 1. 🟩 EASY - problems that are pretty much straightforward
@@ -33,9 +33,9 @@ Legend:
 
 #### 🌟 01. JavaScript Design Patterns
 
-- [ ] 🍛 **Function Currying**
+- [x] 🍛 **Function Currying**
     - [x] 🟩 EASY [01. Easy Currying](src/01_design_patterns/01_function_currying/01_easy_currying.js)
-    - [ ] 🟥 HARD  [02. Advanced Curryin](src/01_design_patterns/01_function_currying/02_advanced_curry.js)
+    - [x] 🟥 HARD  [02. Advanced Curryin](src/01_design_patterns/01_function_currying/02_advanced_curry.js)
 
 - [ ] 🏛️ **Prototypal Inheritance**
     - [ ] 🟩 EASY [03. Prototypal Inheritance](src/01_design_patterns/02_prototypal_inheritance/03_object_inheritance.js)
@@ -48,7 +48,7 @@ Legend:
 - [ ] 🔄 **Timer Functions**
   - [ ] 🟩 EASY [06. Delayed Print](src/02_async_javascript/02_timer_functions/06_delayed_print.js)
   - [ ] 🟨 MEDIUM [07. Interval Counter](src/02_async_javascript/02_timer_functions/07_interval_counter.js)
-  
+
 
 - [ ] 🔄 **Promises**
   - [ ] 🟨 MEDIUM [09. Promise Timer](src/02_async_javascript/03_promises/09_promise_timer.js)
@@ -76,17 +76,17 @@ Legend:
 ### JavaScript Design Patterns
 
 #### 01. Easy Currying
-Understand the basics of function currying by completing this [exercise](src/01_design_patterns/01_function_currying/01_easy_currying.js). 
+Understand the basics of function currying by completing this [exercise](src/01_design_patterns/01_function_currying/01_easy_currying.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 01_easy_currying
 ```
 
 #### 02. Advanced Currying
-Master advanced function currying in JavaScript. Try the [exercise](src/01_design_patterns/01_function_currying/02_advanced_curry.js). 
+Master advanced function currying in JavaScript. Try the [exercise](src/01_design_patterns/01_function_currying/02_advanced_curry.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 02_advanced_curry
 ```
@@ -94,17 +94,17 @@ npm run test:watch 02_advanced_curry
 ---
 
 #### 03. Prototypal Inheritance
-Learn how inheritance works in JavaScript with this [exercise](src/01_design_patterns/02_prototypal_inheritance/03_object_inheritance.js). 
+Learn how inheritance works in JavaScript with this [exercise](src/01_design_patterns/02_prototypal_inheritance/03_object_inheritance.js).
 
-🧪 Run Test: 
+🧪 Run Test:
 ```bash
 npm run test:watch 03_object_inheritance
 ```
 
 #### 04. Higher Order Function: Timed Execution
-Learn to implement timed execution of functions. Get started with this [exercise](src/01_design_patterns/03_higher_order_functions/04_timed_execution.js). 
+Learn to implement timed execution of functions. Get started with this [exercise](src/01_design_patterns/03_higher_order_functions/04_timed_execution.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 04_timed_execution
 ```
@@ -114,49 +114,49 @@ npm run test:watch 04_timed_execution
 ### Asynchronous JavaScript
 
 #### 06. Delayed Print
-Understand `setTimeout` through this [exercise](src/02_async_javascript/02_timer_functions/06_delayed_print.js). 
+Understand `setTimeout` through this [exercise](src/02_async_javascript/02_timer_functions/06_delayed_print.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 06_delayed_print
 ```
 
 #### 07. Interval Counter
-Learn how to use `setInterval` with this [exercise](src/02_async_javascript/02_timer_functions/07_interval_counter.js). 
+Learn how to use `setInterval` with this [exercise](src/02_async_javascript/02_timer_functions/07_interval_counter.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 07_interval_counter
 ```
 
 #### 08. Auto Stop Counter
-Master timers by making one that stops automatically in this [exercise](src/02_async_javascript/02_timer_functions/08_auto_stop_counter.js). 
+Master timers by making one that stops automatically in this [exercise](src/02_async_javascript/02_timer_functions/08_auto_stop_counter.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 08_auto_stop_counter
 ```
 
 #### 09. Promise Timer
-Get to grips with Promises by building a timer in this [exercise](src/02_async_javascript/03_promises/09_promise_timer.js). 
+Get to grips with Promises by building a timer in this [exercise](src/02_async_javascript/03_promises/09_promise_timer.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 09_promise_timer
 ```
 
 #### 10. Promisify
-Learn how to convert callback-based functions to promises in this [exercise](src/02_async_javascript/03_promises/10_promisify.js). 
+Learn how to convert callback-based functions to promises in this [exercise](src/02_async_javascript/03_promises/10_promisify.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 10_promisify
 ```
 
 #### 11. Async Fetcher
-Try using `async` and `await` for fetching data in this [exercise](src/02_async_javascript/04_async_await/11_async_fetcher.js). 
+Try using `async` and `await` for fetching data in this [exercise](src/02_async_javascript/04_async_await/11_async_fetcher.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 11_async_fetcher
 ```
@@ -165,25 +165,25 @@ npm run test:watch 11_async_fetcher
 ### Advanced Functions
 
 #### 12. `this` in `arrow functions`
-Gain a deeper understanding of the `this` object in arrow functions with this [exercise](src/03_advanced_functions/01_the_this_object/12_thisInArrowFunction.js). 
+Gain a deeper understanding of the `this` object in arrow functions with this [exercise](src/03_advanced_functions/01_the_this_object/12_thisInArrowFunction.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```
 npm run test:watch 12_thisInArrowFunction
 ```
 
 #### 13. `this` in `normal functions`
-Explore the behavior of `this` in standard functions in this [exercise](src/03_advanced_functions/02_call_apply_bind/13_thisInNormalFunction.js). 
+Explore the behavior of `this` in standard functions in this [exercise](src/03_advanced_functions/02_call_apply_bind/13_thisInNormalFunction.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 13_thisInNormalFunction
 ```
 
 #### 14. Borrow Method using Call
-Master the `call` method by borrowing methods from other objects in this [exercise](src/03_advanced_functions/02_call_apply_bind/14_borrow_method.js). 
+Master the `call` method by borrowing methods from other objects in this [exercise](src/03_advanced_functions/02_call_apply_bind/14_borrow_method.js).
 
-🧪 Run Tests: 
+🧪 Run Tests:
 ```bash
 npm run test:watch 14_borrow_method
 ```
